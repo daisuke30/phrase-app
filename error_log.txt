@@ -1,0 +1,167 @@
+2025-03-10T16:47:42.119Z expo:telemetry Switching strategy from detached to instant
+2025-03-10T16:47:42.193Z expo:telemetry Recording 1 event(s)
+2025-03-10T16:47:42.205Z expo:env No environment variables loaded from .env files.
+Starting project at /Users/Daisuke/apps/phrase-app
+2025-03-10T16:47:42.408Z expo:utils:fileNotifier Observing /Users/Daisuke/apps/phrase-app/babel.config.js
+2025-03-10T16:47:42.565Z expo:start:server:devServer Stopping dev server (bundler: metro)
+2025-03-10T16:47:42.566Z expo:start:server:devServer Stopped dev server (bundler: metro)
+2025-03-10T16:47:42.570Z expo:start:server:metro:router Using app as the root directory for Expo Router.
+2025-03-10T16:47:42.650Z expo:doctor:apple:simulatorApp Simulator app id: com.apple.iphonesimulator
+
+Expo Metro config:
+- Version: 0.19.11
+- Extensions: ts, tsx, mjs, js, jsx, json, cjs, scss, sass, css
+- React Native: /Users/Daisuke/apps/phrase-app/node_modules/react-native
+- Watch Folders: 
+- Node Module Paths: 
+- Env Files: .env.development.local,.env.local,.env.development,.env
+- Sass: null
+- Reanimated: null
+
+2025-03-10T16:47:43.342Z expo:metro:withMetroResolvers Appending 7 custom resolvers to Metro config. (has custom resolver: false)
+2025-03-10T16:47:43.416Z expo:start:server:urlCreator URL: http://127.0.0.1:8081
+Starting Metro Bundler
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+2025-03-10T16:47:43.701Z expo:start:server:middleware:serveStatic Serving static files from: /Users/Daisuke/apps/phrase-app/public
+2025-03-10T16:47:43.759Z expo:start:server:urlCreator URL: exp://192.168.0.6:8081
+2025-03-10T16:47:43.796Z expo:start:server:developmentSession Development session will not ping because the user is not authenticated and there are no devices.
+2025-03-10T16:47:43.798Z expo:start:server:metro:waitForTypescript Watching file changes: [
+  '/Users/Daisuke/apps/phrase-app/.env.development.local',
+  '/Users/Daisuke/apps/phrase-app/.env.local',
+  '/Users/Daisuke/apps/phrase-app/.env.development',
+  '/Users/Daisuke/apps/phrase-app/.env'
+]
+2025-03-10T16:47:43.800Z expo:doctor:typescriptSupport Ensuring TypeScript support is setup
+2025-03-10T16:47:43.805Z expo:doctor:dependencies:getMissingPackages Required package "typescript" found (no version constraint specified).
+2025-03-10T16:47:43.807Z expo:doctor:dependencies:getMissingPackages Required package "@types/react" found (no version constraint specified).
+2025-03-10T16:47:43.810Z expo:typed-routes Removing typed routes side-effects (experiments.typedRoutes: false)
+2025-03-10T16:47:43.812Z expo:doctor:dependencies:bundledNativeModules Fetching bundled native modules from the server...
+2025-03-10T16:47:44.444Z expo:doctor:dependencies:validate Checking dependencies for 52.0.0: {
+  '@expo/ngrok': '^4.1.3',
+  '@react-native-async-storage/async-storage': '1.21.0',
+  '@react-native-masked-view/masked-view': '^0.3.0',
+  '@react-navigation/bottom-tabs': '^6.5.11',
+  '@react-navigation/native': '^6.1.9',
+  '@react-navigation/stack': '^6.3.20',
+  '@reduxjs/toolkit': '^2.2.1',
+  expo: '~52.0.37',
+  'expo-av': '~13.10.5',
+  'expo-status-bar': '~2.0.1',
+  firebase: '^10.8.0',
+  react: '18.3.1',
+  'react-native': '0.76.7',
+  'react-native-gesture-handler': '^2.12.0',
+  'react-native-paper': '^5.12.3',
+  'react-native-safe-area-context': '^4.8.2',
+  'react-native-screens': '~3.29.0',
+  'react-redux': '^9.1.0',
+  '@babel/core': '^7.25.2',
+  '@types/react': '~18.3.12',
+  '@typescript-eslint/eslint-plugin': '^7.2.0',
+  '@typescript-eslint/parser': '^7.2.0',
+  eslint: '^8.57.0',
+  'eslint-config-prettier': '^9.1.0',
+  'eslint-plugin-prettier': '^5.1.3',
+  'eslint-plugin-react': '^7.33.2',
+  'eslint-plugin-react-hooks': '^4.6.0',
+  'eslint-plugin-react-native': '^4.1.0',
+  prettier: '^3.2.5',
+  typescript: '^5.3.3'
+}
+2025-03-10T16:47:44.445Z expo:doctor:dependencies:validate Comparing known versions: [
+  '@react-native-async-storage/async-storage',
+  '@react-native-masked-view/masked-view',
+  'expo',
+  'expo-av',
+  'expo-status-bar',
+  'react',
+  'react-native',
+  'react-native-gesture-handler',
+  'react-native-safe-area-context',
+  'react-native-screens',
+  '@babel/core',
+  '@types/react',
+  'typescript'
+]
+2025-03-10T16:47:44.446Z expo:doctor:dependencies:validate Skipping packages that cannot be versioned automatically: [
+  '@expo/ngrok',
+  '@react-navigation/bottom-tabs',
+  '@react-navigation/native',
+  '@react-navigation/stack',
+  '@reduxjs/toolkit',
+  'firebase',
+  'react-native-paper',
+  'react-redux',
+  '@typescript-eslint/eslint-plugin',
+  '@typescript-eslint/parser',
+  'eslint',
+  'eslint-config-prettier',
+  'eslint-plugin-prettier',
+  'eslint-plugin-react',
+  'eslint-plugin-react-hooks',
+  'eslint-plugin-react-native',
+  'prettier'
+]
+2025-03-10T16:47:44.452Z expo:doctor:dependencies:validate Package versions: {
+  '@react-native-async-storage/async-storage': '1.21.0',
+  '@react-native-masked-view/masked-view': '0.3.0',
+  expo: '52.0.37',
+  'expo-av': '13.10.6',
+  'expo-status-bar': '2.0.1',
+  react: '18.3.1',
+  'react-native': '0.76.7',
+  'react-native-gesture-handler': '2.12.0',
+  'react-native-safe-area-context': '4.8.2',
+  'react-native-screens': '3.29.0',
+  '@babel/core': '7.26.9',
+  '@types/react': '18.3.18',
+  typescript: '5.8.2'
+}
+2025-03-10T16:47:44.471Z expo:doctor:dependencies:validate Incorrect dependencies: [
+  {
+    packageName: '@react-native-async-storage/async-storage',
+    packageType: 'dependencies',
+    expectedVersionOrRange: '1.23.1',
+    actualVersion: '1.21.0'
+  },
+  {
+    packageName: '@react-native-masked-view/masked-view',
+    packageType: 'dependencies',
+    expectedVersionOrRange: '0.3.2',
+    actualVersion: '0.3.0'
+  },
+  {
+    packageName: 'expo-av',
+    packageType: 'dependencies',
+    expectedVersionOrRange: '~15.0.2',
+    actualVersion: '13.10.6'
+  },
+  {
+    packageName: 'react-native-gesture-handler',
+    packageType: 'dependencies',
+    expectedVersionOrRange: '~2.20.2',
+    actualVersion: '2.12.0'
+  },
+  {
+    packageName: 'react-native-safe-area-context',
+    packageType: 'dependencies',
+    expectedVersionOrRange: '4.12.0',
+    actualVersion: '4.8.2'
+  },
+  {
+    packageName: 'react-native-screens',
+    packageType: 'dependencies',
+    expectedVersionOrRange: '~4.4.0',
+    actualVersion: '3.29.0'
+  }
+]
+The following packages should be updated for best compatibility with the installed expo version:
+  @react-native-async-storage/async-storage@1.21.0 - expected version: 1.23.1
+  @react-native-masked-view/masked-view@0.3.0 - expected version: 0.3.2
+  expo-av@13.10.6 - expected version: ~15.0.2
+  react-native-gesture-handler@2.12.0 - expected version: ~2.20.2
+  react-native-safe-area-context@4.8.2 - expected version: 4.12.0
+  react-native-screens@3.29.0 - expected version: ~4.4.0
+Your project may not work correctly until you install the expected versions of the packages.
+Waiting on http://localhost:8081
+Logs for your project will appear below.
